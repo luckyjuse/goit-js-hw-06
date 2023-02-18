@@ -31,9 +31,10 @@ function onFormSubmit(event) {
 //     alert('Всі поля повинні бути заповнені.');
 //   }
 //   const formData = new FormData(event.currentTarget);
-//   console.log(formData);
+//   const userData = {};
 //   formData.forEach((value, name) => {
-//     const userData = { name: value };
-//     console.log(userData);
+//   userData[name] = value
+//   console.log(userData);
+//   formEl.reset();
 //   });
 // }
